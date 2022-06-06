@@ -1,0 +1,8 @@
+1599412899.789:688370,51300:"/home/x10/APTHUNT/reducer/log-reducer-master/generate_audit_logs/readloop",execve,0,"./readloop"
+1599412899.793:688371,51300:"/home/x10/APTHUNT/reducer/log-reducer-master/generate_audit_logs/readloop",open,0xc93bd,"/etc/ld.so.cache"
+1599412899.793:688373,51300:"/home/x10/APTHUNT/reducer/log-reducer-master/generate_audit_logs/readloop",open,0xe09c2,"/lib/x86_64-linux-gnu/libc.so.6"
+1599412899.793:688374,51300:"/home/x10/APTHUNT/reducer/log-reducer-master/generate_audit_logs/readloop",read,0xe09c2,"/lib/x86_64-linux-gnu/libc.so.6"
+1599412899.793:688376,51300:"/home/x10/APTHUNT/reducer/log-reducer-master/generate_audit_logs/readloop",open,0x14abca1,"256.txt"
+1599412899.793:688377,51300:"/home/x10/APTHUNT/reducer/log-reducer-master/generate_audit_logs/readloop",read,0x14abca1,"256.txt"
+1599412899.793:688378,51300:"/home/x10/APTHUNT/reducer/log-reducer-master/generate_audit_logs/readloop",read,0x14abca1,"256.txt"
+1599412899.793:688379,51300:"/home/x10/APTHUNT/reducer/log-reducer-master/generate_audit_logs/readloop",read,0x14abca1,"256.txt"

@@ -1,0 +1,6 @@
+1541006672.211:6771341,1906:"/home/sanya/log-compression-project/c_tests/testCase5",close,0x1fc0704,"/etc/ld.so.cache"
+1541006672.211:6771344,1906:"/home/sanya/log-compression-project/c_tests/testCase5",close,0x33000a9,"/lib/x86_64-linux-gnu/libc.so.6"
+1541006672.211:6771345,1906:"/home/sanya/log-compression-project/c_tests/testCase5",write,stdout,1
+1541006672.211:6771346,1906:"/home/sanya/log-compression-project/c_tests/testCase5",write,stdout,1
+1541006672.211:6771350,1906:"/home/sanya/log-compression-project/c_tests/testCase5",write,stdout,1
+1541006672.211:6771351,1906:"/home/sanya/log-compression-project/c_tests/testCase5",write,stdout,1

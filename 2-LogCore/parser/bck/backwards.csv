@@ -1,0 +1,3 @@
+1599412899.793:688372,51300:"/home/x10/APTHUNT/reducer/log-reducer-master/generate_audit_logs/readloop",close,0xc93bd,"/etc/ld.so.cache"
+1599412899.793:688375,51300:"/home/x10/APTHUNT/reducer/log-reducer-master/generate_audit_logs/readloop",close,0xe09c2,"/lib/x86_64-linux-gnu/libc.so.6"
+1599412899.793:688380,51300:"/home/x10/APTHUNT/reducer/log-reducer-master/generate_audit_logs/readloop",write,stdout,1

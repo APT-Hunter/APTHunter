@@ -1,0 +1,31 @@
+,host,detection_timestamp,Compromised Process,Inter_process,SYSCALL_2,detection_details,threat_Score,certainity_Score
+0,theia,2018-04-10T14:32:32.000000000,/usr/bin/fluxbox:06187E2A-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/passwd,2.0,10.0
+1,theia,2018-04-10T14:32:40.000000000,/usr/bin/fluxbox:06187E2A-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/passwd,2.0,10.0
+2,theia,2018-04-10T14:32:40.000000000,/usr/bin/fluxbox:06187E2A-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/group,2.0,10.0
+3,theia,2018-04-10T14:32:26.000000000,/usr/bin/fluxbox:06187E2A-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/passwd,2.0,10.0
+4,theia,2018-04-10T14:32:32.000000000,/home/admin/Downloads/firefox/firefox:4E18B22A-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/passwd,2.0,10.0
+5,theia,2018-04-10T14:32:40.000000000,/home/admin/Downloads/firefox/firefox:4E18B22A-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/passwd,2.0,10.0
+6,theia,2018-04-10T14:32:40.000000000,/home/admin/Downloads/firefox/firefox:4E18B22A-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/group,2.0,10.0
+7,theia,2018-04-10T14:32:26.000000000,/home/admin/Downloads/firefox/firefox:4E18B22A-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/passwd,2.0,10.0
+8,theia,2018-04-10T14:36:01.000000000,/home/admin/clean:6818A92B-0000-0000-0000-000000000020,/home/admin/clean (deleted),READ,/etc/passwd,2.0,10.0
+9,theia,2018-04-10T14:56:44.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/hosts,2.0,10.0
+10,theia,2018-04-10T14:57:30.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/hosts,2.0,10.0
+11,theia,2018-04-10T14:56:38.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/hosts,2.0,10.0
+12,theia,2018-04-10T14:55:41.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/hosts,2.0,10.0
+13,theia,2018-04-10T14:54:46.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/hosts,2.0,10.0
+14,theia,2018-04-10T14:57:43.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/hosts,2.0,10.0
+15,theia,2018-04-10T14:54:55.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/hosts,2.0,10.0
+16,theia,2018-04-10T14:57:07.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/hosts,2.0,10.0
+17,theia,2018-04-10T14:57:23.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/hosts,2.0,10.0
+18,theia,2018-04-10T14:55:03.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/hosts,2.0,10.0
+19,theia,2018-04-10T14:57:52.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/hosts,2.0,10.0
+20,theia,2018-04-10T14:55:52.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/hosts,2.0,10.0
+21,theia,2018-04-10T14:56:00.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/hosts,2.0,10.0
+22,theia,2018-04-10T14:54:39.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/hosts,2.0,10.0
+23,theia,2018-04-10T14:54:34.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/hosts,2.0,10.0
+24,theia,2018-04-10T14:54:35.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/hosts,2.0,10.0
+25,theia,2018-04-10T14:54:37.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/hosts,2.0,10.0
+26,theia,2018-04-10T14:54:45.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/hosts,2.0,10.0
+27,theia,2018-04-10T14:54:37.000000000,/usr/bin/fluxbox:7F1FD92F-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/passwd,2.0,10.0
+28,theia,2018-04-10T14:54:37.000000000,/home/admin/Downloads/firefox/firefox:C21F0F30-0000-0000-0000-000000000020,/home/admin/Downloads/firefox/firefox,READ,/etc/passwd,2.0,10.0
+29,theia,2018-04-10T14:58:54.000000000,/home/admin/profile:FB1F9E30-0000-0000-0000-000000000020,/home/admin/profile (deleted),READ,/etc/passwd,2.0,10.0

@@ -1,0 +1,2 @@
+host,stage,detection_timestamp,source,SYSCALL,Intermediate_process,detection_details,threat_Score,certainity_Score
+theia,6,2018-04-12T12:50:18.000000000-04:00,/home/admin/Downloads/firefox/firefox:B33501B6-0200-0000-0000-000000000020,...,/home/admin/Downloads/firefox/firefox:B33501B6-0200-0000-0000-000000000020,WRITE  /etc/firefox/native-messaging-hosts/gtcache,39.810717055349734,10.0

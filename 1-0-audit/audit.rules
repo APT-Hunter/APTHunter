@@ -1,0 +1,33 @@
+# Linux Audit Daemon - Best Practice Configuration
+# /etc/audit/audit.rules
+#
+# Compiled by 
+#
+# Created  : 
+# Modified : 
+#
+# Based on rules published here:
+#   Gov.uk auditd rules
+#   	https://github.com/gds-operations/puppet-auditd/pull/1
+# 	CentOS 7 hardening
+# 		https://highon.coffee/blog/security-harden-centos-7/#auditd---audit-daemon
+# 	Linux audit repo
+# 		https://github.com/linux-audit/audit-userspace/tree/master/rules
+# 	Auditd high performance linux auditing
+# 		https://linux-audit.com/tuning-auditd-high-performance-linux-auditing/
+#
+# Further rules
+# 	For PCI DSS compliance see:
+# 		https://github.com/linux-audit/audit-userspace/blob/master/rules/30-pci-dss-v31.rules
+# 	For NISPOM compliance see:
+# 		https://github.com/linux-audit/audit-userspace/blob/master/rules/30-nispom.rules
+
+# Remove any existing rules
+-D
+
+# Buffer Size
+## 
+-b 8192
+
+
+-a always,exit -F arch=b64 -S all  -k prov

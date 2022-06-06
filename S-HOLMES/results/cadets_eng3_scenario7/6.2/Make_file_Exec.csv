@@ -1,0 +1,2 @@
+host,stage,detection_timestamp,source,SYSCALL,Intermediate_process,detection_details,threat_Score,certainity_Score
+cadets,1,2018-04-11T15:12:33.000000000-04:00,nginx:2720E25F-39BE-11E8-B8CE-15D78AC88FB6,...,nginx:2720E25F-39BE-11E8-B8CE-15D78AC88FB6,MODIFY_FILE_ATTRIBUTES:chmod  /tmp/grain,9.849155306759332,10.0

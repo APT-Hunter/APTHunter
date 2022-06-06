@@ -1,0 +1,2 @@
+host,stage,detection_timestamp,source,SYSCALL,Intermediate_process,detection_details,threat_Score,certainity_Score
+cadets,7,2018-04-06T11:33:43.000000000-04:00,nginx:674D8313-390A-11E8-BF66-D9AA8AFF4A69,...,,nginx SENDMSG /tmp/vUgefal,21.030864518443156,10.0

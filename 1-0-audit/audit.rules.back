@@ -1,0 +1,34 @@
+# Contains audit rules that will be loaded by the audit daemon's init script
+# whenever the daemon is started.
+
+# syscall rules.
+#define	AF_INET		2	/* Internet IP Protocol	*/
+#define AF_INET6	10	/* IP Version 6	*/
+
+-a always,exit -F arch=b64 -S open,openat  -k prov
+-a always,exit -F arch=b64 -S read   -k prov
+-a always,exit -F arch=b64 -S write -k prov
+-a always,exit -F arch=b64 -S exit,exit_group -k prov
+-a always,exit -F arch=b64 -S close -k prov
+#-a always,exit -F arch=b64 -S creat   -k prov
+#-a always,exit -F arch=b64 -S truncate -k prov
+#-a always,exit -F arch=b64 -S rename,renameat -k prov
+#-a always,exit -F arch=b64 -S unlink,unlinkat -k prov
+#-a always,exit -F arch=b64 -S mknod,mknodat -k prov
+#-a always,exit -F arch=b64 -S mkdir,mkdirat -k prov
+#-a always,exit -F arch=b64 -S rmdir -k prov
+#-a always,exit -F arch=b64 -S chdir -k prov
+#-a always,exit -F arch=b64 -S chown   -k prov
+#-a always,exit -F arch=b64 -S lchown -k prov
+#-a always,exit -F arch=b64 -S fchownat -k prov
+#-a always,exit -F arch=b64 -S chmod -k prov
+#-a always,exit -F arch=b64 -S fchmodat   -k prov
+#-a always,exit -F arch=b64 -S link,linkat -k prov
+#-a always,exit -F arch=b64 -S symlink,symlinkat -k prov
+#-a always,exit -F arch=b64 -S readlink,readlinkat -k prov
+-a always,exit -F arch=b64 -S execve   -k prov
+#-a always,exit -F arch=b64 -S name_to_handle_at -k prov
+-a exit,always -F arch=b64 -S socket -F success=1
+-a exit,always -F arch=b64 -S socket -F success=1
+-a exit,always -F arch=b64 -S socket -F a0=2
+-a exit,always -F arch=b64 -S socket -F a0=10
