@@ -1,0 +1,33 @@
+log4j: Trying to find [log4j.xml] using context classloader sun.misc.Launcher$AppClassLoader@7d4991ad.
+log4j: Trying to find [log4j.xml] using sun.misc.Launcher$AppClassLoader@7d4991ad class loader.
+log4j: Trying to find [log4j.xml] using ClassLoader.getSystemResource().
+log4j: Trying to find [log4j.properties] using context classloader sun.misc.Launcher$AppClassLoader@7d4991ad.
+log4j: Using URL [jar:file:/home/elasticsearch/TC-DAS/TC_Data_Visualization_Tool/importers/from_file/tc-das-importer-1.0-SNAPSHOT-jar-with-dependencies.jar!/log4j.properties] for automatic log4j configuration.
+log4j: Reading configuration from URL jar:file:/home/elasticsearch/TC-DAS/TC_Data_Visualization_Tool/importers/from_file/tc-das-importer-1.0-SNAPSHOT-jar-with-dependencies.jar!/log4j.properties
+log4j: Parsing for [root] with value=[INFO, console].
+log4j: Level token is [INFO].
+log4j: Category root set to INFO
+log4j: Parsing appender named "console".
+log4j: Parsing layout options for "console".
+log4j: Setting property [conversionPattern] to [%p %c{1}: %m%n].
+log4j: End of parsing for "console".
+log4j: Setting property [target] to [System.err].
+log4j: Parsed "console" options.
+log4j: Parsing for [org.spark-project.jetty] with value=[WARN].
+log4j: Level token is [WARN].
+log4j: Category org.spark-project.jetty set to WARN
+log4j: Handling log4j.additivity.org.spark-project.jetty=[null]
+log4j: Parsing for [org.spark-project.jetty.util.component.AbstractLifeCycle] with value=[ERROR].
+log4j: Level token is [ERROR].
+log4j: Category org.spark-project.jetty.util.component.AbstractLifeCycle set to ERROR
+log4j: Handling log4j.additivity.org.spark-project.jetty.util.component.AbstractLifeCycle=[null]
+log4j: Parsing for [org.apache.spark.repl.SparkILoop$SparkILoopInterpreter] with value=[INFO].
+log4j: Level token is [INFO].
+log4j: Category org.apache.spark.repl.SparkILoop$SparkILoopInterpreter set to INFO
+log4j: Handling log4j.additivity.org.apache.spark.repl.SparkILoop$SparkILoopInterpreter=[null]
+log4j: Parsing for [org.apache.spark.repl.SparkIMain$exprTyper] with value=[INFO].
+log4j: Level token is [INFO].
+log4j: Category org.apache.spark.repl.SparkIMain$exprTyper set to INFO
+log4j: Handling log4j.additivity.org.apache.spark.repl.SparkIMain$exprTyper=[null]
+log4j: Finished configuring.
+ERROR DASImporter: Missing input file or schema

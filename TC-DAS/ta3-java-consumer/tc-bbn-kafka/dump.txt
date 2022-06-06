@@ -1,0 +1,4 @@
+== Info:   Trying 127.0.0.1...
+== Info: connect to 127.0.0.1 port 9200 failed: Connection refused
+== Info: Failed to connect to elasticsearch port 9200: Connection refused
+== Info: Closing connection 0
