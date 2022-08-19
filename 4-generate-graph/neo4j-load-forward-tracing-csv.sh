@@ -49,7 +49,7 @@ CREATE (n1)-[:SYSCALL {type : line[2], seq: (split(line[0], ':'))[1], timestamp:
 \""
 
 #, timestamp: datetime({ epochMillis: (split(line[0], '.'))[0] })
-#WITH line,n1,n3
+#WITH line,n1,n3 
 #DELETE="MATCH (n) DETACH DELETE n;"
 #eval "${CYPHER_BIN}" "${CYPHER_ARGS}" "${DELETE}"
 eval "${CYPHER_BIN}" "${CYPHER_ARGS}" "${QUERY}"
