@@ -8,7 +8,7 @@ MATCH (n1)-[r]->(n2) WHERE n1.name = "2008:\"/bin/cat\"" RETURN r, n1, n2
 # match on syscall:
 MATCH (n1)-[r]->(n2) WHERE r.type = "EXECUTE" RETURN r, n1, n2 LIMIT 50
 
-// Get the whole graph
+// Get the whole graph 
 MATCH p=(n1)-[r]->(n2) RETURN p
 
 # scan for occurence of multiple relations 
