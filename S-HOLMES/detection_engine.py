@@ -3,12 +3,11 @@
 
 ###################################
 ######   Neo4j Parser  ############
-## This script extracts    ########
-# attack stages         ###########
+########      &&	   ########
+# attack stages extraction ########
 ###    in stages     ##############
-# based on stage rules	    #######
-## Author: Moustafa Mahmoud #######
-## Concordia University ###########
+### based on stage rules    #######
+###################################
 ###################################
 
 from neo4j import GraphDatabase
