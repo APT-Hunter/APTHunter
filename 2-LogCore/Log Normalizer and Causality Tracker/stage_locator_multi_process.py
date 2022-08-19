@@ -2,7 +2,7 @@
 
 
 ###################################
-######   Log Normalizer############
+######   Log Normalizer ###########
 ## 	     AND  	   ########
 ####  Causality Tracker  ##########
 #####  Version Details   ##########
