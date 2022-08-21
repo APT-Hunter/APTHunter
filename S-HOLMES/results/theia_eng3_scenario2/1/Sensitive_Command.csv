@@ -1,2 +1,0 @@
-host,stage,detection_timestamp,source,SYSCALL,Intermediate_process,detection_details,threat_Score,certainity_Score
-theia,4,2018-04-12T12:50:18.000000000-04:00,/home/admin/Downloads/firefox/firefox:B33501B6-0200-0000-0000-000000000020,...,/etc/firefox/native-messaging-hosts/pass_mgr:B43501B6-0200-0000-0000-000000000020,CLONE  /bin/dash,18.379173679952558,10.0
