@@ -1,2 +1,0 @@
-,host,detection_timestamp,Compromised Process,Inter_process,SYSCALL_2,detection_details,threat_Score,certainity_Score
-0,theia,2018-04-12T12:50:18.000000000,/home/admin/Downloads/firefox/firefox:B33501B6-0200-0000-0000-000000000020,/etc/firefox/native-messaging-hosts/pass_mgr:B43501B6-0200-0000-0000-000000000020,CLONE,/bin/dash,2.0,10.0
