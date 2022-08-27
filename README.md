@@ -1,6 +1,6 @@
 # APTHunter: Detecting Advanced Persistent Threats in Early Stages
 
-## 1-0-audit
+## 1-0-Audit
 
 To start system audit and configure audit rules. 
 
@@ -13,7 +13,8 @@ Configuring Kafka for log consumption.
 For Log parsersing, Normalization and for Causality Tracking. Output from this stage is used to generate the whole system provenance graph. 
 
 
-## 3-detection-engine
+## 3-Generate-graph
+To generate the whole system provenance graph based on the normalized log form. 
 
-
-## 4-generate-graph
+## 4-Detection-engine
+To run APTHunter's provenance queries on the whole system graph.  
