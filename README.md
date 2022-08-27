@@ -13,8 +13,8 @@ Configuring Kafka for log consumption.
 For Log parsersing, Normalization and for Causality Tracking. Output from this stage is used to generate the whole system provenance graph. 
 
 
-## 3-Generate-graph
+## 3-Generate-Graph
 To generate the whole system provenance graph based on the normalized log form. 
 
-## 4-Detection-engine
+## 4-Detection-Engine
 To run APTHunter's provenance queries on the whole system graph.  
